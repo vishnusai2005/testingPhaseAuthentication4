@@ -1,0 +1,196 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "NJSCADOQBS_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "An Express instance should be exported from the 'app.js' file using the default export syntax",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/?status=TO%20DO' should return the list of all todos whose status is 'TO DO' as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/?priority=HIGH' should return the list of all todos whose priority is 'HIGH' as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/?priority=HIGH&status=IN%20PROGRESS' should return the list of all todos whose priority is 'HIGH' and status is 'IN PROGRESS' as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/?category=WORK&status=DONE' should return the list of all todos whose category is 'WORK' and status is 'DONE' as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/?category=LEARNING&priority=HIGH' should return the list of all todos whose category is 'LEARNING' and priority is 'HIGH' as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/?category=HOME' should return the list of all todos whose category is 'HOME' as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/?search_q=Buy' should return the list of all todos whose todo contains 'Buy' text as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/:todoId/' should return a specific todo based on the todo ID as a response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/agenda/?date=:date' should return a list of all todos of the specific date as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/' with invalid todo status should return '400' as status code and 'Invalid Todo Status' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/' with invalid todo priority should return '400' as status code and 'Invalid Todo Priority' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/todos/' with invalid todo category should return '400' as status code and 'Invalid Todo Category' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "The GET request to the path '/agenda/' with an invalid date query should return '400' as status code and 'Invalid Due Date' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request to the path '/todos/' should return the 'Todo Successfully Added' text as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "The database should be updated on the post request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request to the path '/todos/' with invalid todo status should return '400' as status code and 'Invalid Todo Status' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request to the path '/todos/' with invalid todo priority should return '400' as status code and 'Invalid Todo Priority' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request to the path '/todos/' with invalid todo category should return '400' as status code and 'Invalid Todo Category' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "The POST request to the path '/todos/' with invalid due date should return '400' as status code and 'Invalid Due Date' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with 'status' property in the body should return the 'Status Updated' text as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with 'priority' property in the body should return the 'Priority Updated' text as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_23",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with 'todo' property in the body should return the 'Todo Updated' text as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with 'category' property in the body should return the 'Category Updated' text as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with 'dueDate' property in the body should return the 'Due Date Updated' text as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "The database should be updated on the put request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with invalid due date should return '400' as status code and 'Invalid Due Date' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with invalid status should return '400' as status code and 'Invalid Todo Status' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with invalid priority should return '400' as status code and 'Invalid Todo Priority' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_30",
+      "evaluation_result": "CORRECT",
+      "title": "The PUT request to the path '/todos/:todoId/' with invalid category should return '400' as status code and 'Invalid Todo Category' text as a response to the request",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_31",
+      "evaluation_result": "CORRECT",
+      "title": "The DELETE request to the path '/todos/:todoId/' should return 'Todo Deleted' text as a response upon success",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "NJSCADOQBS_TEST_32",
+      "evaluation_result": "CORRECT",
+      "title": "The database should be updated on the delete request",
+      "errorMessages": []
+    }
+  ]
+}
